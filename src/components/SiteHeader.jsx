@@ -1,4 +1,4 @@
-import logo from '../assets/KashPassLogo.png'
+import logo from '../assets/KashPassLogo.webp'
 
 export default function SiteHeader() {
   return (
@@ -7,8 +7,8 @@ export default function SiteHeader() {
         src={logo}
         alt="KashPass"
         className='kashpass-logo'
-        width={2172}
-        height={724}
+        width={1200}
+        height={400}
       />
 
       {/* <nav className='nav-links'>

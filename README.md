@@ -19,6 +19,12 @@ npm run dev
 | `npm run preview` | Serve the production build locally    |
 | `npm run lint`    | Run ESLint over `**/*.{js,jsx}`       |
 
+## Deploying
+
+Static build: `npm run build` outputs to `dist/`. Node is pinned by `.nvmrc`
+(also declared in `engines`) because Vite 8 requires >= 20.19. Cache and security
+headers live in `public/_headers`.
+
 ## Structure
 
 ```
